@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0067/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0067/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上七星神咒經
+  date: '2015-08-28 23:48:15.228080'
+  source:
+    repository: kanripo
+    path: KR5b0067
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0067_000-HFL.yaml, hash: 'sha256:21d37334b95931850cf00126c388dd5a2c7e7aee9353496e471f79262bfc48e2'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0067_000-HFL.markers.yaml, hash: 'sha256:c91aa3ea39dbc46ffdf44debf8376da65b579dfd65e6eef5c596af991be09f72'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0067_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 84
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:6292acc66a36297f32e59ffb4fddd537db721eb67e0a8efd86ecb1d9cfdc6129
